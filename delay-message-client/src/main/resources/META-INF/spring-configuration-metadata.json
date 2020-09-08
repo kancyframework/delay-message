@@ -1,0 +1,47 @@
+{
+  "groups": [
+    {
+      "name": "delay.message.client",
+      "type": "com.kancy.delay.message.db.client.properties.DelayMessageClientProperties",
+      "sourceType": "com.kancy.delay.message.db.client.properties.DelayMessageClientProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "delay.message.client.message-alive-time",
+      "type": "java.time.Duration",
+      "description": "消息保留的时间",
+      "sourceType": "com.kancy.delay.message.db.client.properties.DelayMessageClientProperties",
+      "defaultValue": "30d"
+    },
+    {
+      "name": "delay.message.client.use-config-cache",
+      "type": "java.lang.Boolean",
+      "description": "是否使用配置缓存",
+      "sourceType": "com.kancy.delay.message.db.client.properties.DelayMessageClientProperties",
+      "defaultValue": true
+    },
+    {
+      "name": "delay.message.client.use-snow-data-id",
+      "type": "java.lang.Boolean",
+      "description": "使用雪花算法生成数据ID，否则使用UUID",
+      "sourceType": "com.kancy.delay.message.db.client.properties.DelayMessageClientProperties",
+      "defaultValue": true
+    },
+    {
+      "name": "delay.message.client.use-snow-message-id",
+      "type": "java.lang.Boolean",
+      "description": "使用雪花算法生成消息ID，否则使用UUID",
+      "sourceType": "com.kancy.delay.message.db.client.properties.DelayMessageClientProperties",
+      "defaultValue": true
+    },
+    {
+      "name": "delay.message.client.waste-time",
+      "type": "java.lang.Long",
+      "description": "网络消耗浪费的时间",
+      "sourceType": "com.kancy.delay.message.db.client.properties.DelayMessageClientProperties",
+      "defaultValue": 0
+    }
+  ],
+  "hints": []
+}

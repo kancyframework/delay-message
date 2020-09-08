@@ -1,0 +1,38 @@
+server:
+  port: 8088
+
+spring:
+  application:
+    name: application
+  profiles:
+    active: dev
+
+delay:
+  message:
+    metrics: true
+    scheduler:
+      max-expire-discrepancy-interval-time: "1d"
+      log:
+        write-scan-log-enabled: true
+        write-schedule-log-enabled: true
+
+management:
+  metrics:
+    tags:
+      application: ${spring.application.name}
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  endpoint:
+    health:
+      show-details: always
+
+xxl:
+  job:
+    admin:
+      addresses: http://10.10.24.106:12306/xxl-job-admin/
+    executor:
+      appname: vmc-schedule-dev
+      logpath: logs/xxljob
+      port: 39501

@@ -1,0 +1,31 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: application
+  profiles:
+    active: dev
+  cloud.stream:
+    bindings:
+      input:
+        destination: test.business
+        group: queue
+        consumer:
+          concurrency: 10
+
+delay:
+  message:
+    metrics: true
+
+management:
+  metrics:
+    tags:
+      application: ${spring.application.name}
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  endpoint:
+    health:
+      show-details: always
