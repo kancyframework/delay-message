@@ -33,6 +33,14 @@
         <url>https://github.com/kancyframework/delay-message.git</url>
     </scm>
 
+    <modules>
+        <module>delay-message-core</module>
+        <module>delay-message-scheduler</module>
+        <module>delay-message-client</module>
+        <module>delay-message-data-jdbc</module>
+        <module>delay-message-data-mongodb</module>
+    </modules>
+
     <properties>
         <java.version>1.8</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -79,27 +87,27 @@
             <dependency>
                 <groupId>com.github.kancyframework</groupId>
                 <artifactId>delay-message-core</artifactId>
-                <version>${version}</version>
+                <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.github.kancyframework</groupId>
                 <artifactId>delay-message-client</artifactId>
-                <version>${version}</version>
+                <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.github.kancyframework</groupId>
                 <artifactId>delay-message-scheduler</artifactId>
-                <version>${version}</version>
+                <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.github.kancyframework</groupId>
                 <artifactId>delay-message-data-jdbc</artifactId>
-                <version>${version}</version>
+                <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.github.kancyframework</groupId>
                 <artifactId>delay-message-data-mongodb</artifactId>
-                <version>${version}</version>
+                <version>${project.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
