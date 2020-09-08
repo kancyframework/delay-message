@@ -20,12 +20,12 @@
 <dependency>
     <groupId>com.github.kancyframework</groupId>
     <artifactId>delay-message-client</artifactId>
-    <version>1.0.0-SNAPSHOT</version>
+    <version>0.0.1-RELEASE</version>
 </dependency>
 <dependency>
     <groupId>com.github.kancyframework</groupId>
     <artifactId>delay-message-data-mongodb</artifactId>
-    <version>1.0.0-SNAPSHOT</version>
+    <version>0.0.1-RELEASE</version>
 </dependency>
 ```
 
@@ -58,12 +58,12 @@ public class DelayMessageClientDemo {
 <dependency>
     <groupId>com.github.kancyframework</groupId>
     <artifactId>delay-message-scheduler</artifactId>
-    <version>1.0.0-SNAPSHOT</version>
+    <version>0.0.1-RELEASE</version>
 </dependency>
 <dependency>
     <groupId>com.github.kancyframework</groupId>
     <artifactId>delay-message-data-mongodb</artifactId>
-    <version>1.0.0-SNAPSHOT</version>
+    <version>0.0.1-RELEASE</version>
 </dependency>
 ```
 
