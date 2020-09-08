@@ -2,8 +2,8 @@
   "groups": [
     {
       "name": "delay.message",
-      "type": "com.kancy.delay.message.db.properties.DelayMessageProperties",
-      "sourceType": "com.kancy.delay.message.db.properties.DelayMessageProperties"
+      "type": "com.github.kancyframework.delay.message.properties.DelayMessageProperties",
+      "sourceType": "com.github.kancyframework.delay.message.properties.DelayMessageProperties"
     }
   ],
   "properties": [
@@ -17,35 +17,35 @@
       "name": "delay.message.config-cache-max-size",
       "type": "java.lang.Integer",
       "description": "配置缓存最大个数",
-      "sourceType": "com.kancy.delay.message.db.properties.DelayMessageProperties",
+      "sourceType": "com.github.kancyframework.delay.message.properties.DelayMessageProperties",
       "defaultValue": 100
     },
     {
       "name": "delay.message.config-cache-time",
       "type": "java.time.Duration",
       "description": "配置缓存时间",
-      "sourceType": "com.kancy.delay.message.db.properties.DelayMessageProperties",
+      "sourceType": "com.github.kancyframework.delay.message.properties.DelayMessageProperties",
       "defaultValue": "5s"
     },
     {
       "name": "delay.message.datacenter-id",
       "type": "java.lang.Long",
       "description": "数据仓库ID",
-      "sourceType": "com.kancy.delay.message.db.properties.DelayMessageProperties",
+      "sourceType": "com.github.kancyframework.delay.message.properties.DelayMessageProperties",
       "defaultValue": -1
     },
     {
       "name": "delay.message.metrics",
       "type": "java.lang.Boolean",
       "description": "metrics监控",
-      "sourceType": "com.kancy.delay.message.db.properties.DelayMessageProperties",
+      "sourceType": "com.github.kancyframework.delay.message.properties.DelayMessageProperties",
       "defaultValue": false
     },
     {
       "name": "delay.message.worker-id",
       "type": "java.lang.Long",
       "description": "工作ID",
-      "sourceType": "com.kancy.delay.message.db.properties.DelayMessageProperties",
+      "sourceType": "com.github.kancyframework.delay.message.properties.DelayMessageProperties",
       "defaultValue": -1
     }
   ],

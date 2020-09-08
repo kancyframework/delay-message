@@ -2,8 +2,8 @@
   "groups": [
     {
       "name": "delay.message.mongo",
-      "type": "com.kancy.delay.message.data.mongo.config.MongoDbProperties",
-      "sourceType": "com.kancy.delay.message.data.mongo.config.MongoDbProperties"
+      "type": "com.github.kancyframework.delay.message.data.mongo.config.MongoDbProperties",
+      "sourceType": "com.github.kancyframework.delay.message.data.mongo.config.MongoDbProperties"
     }
   ],
   "properties": [
@@ -11,7 +11,7 @@
       "name": "delay.message.mongo.uri",
       "type": "java.lang.String",
       "description": "Mongo database URI. Cannot be set with host, port and credentials.",
-      "sourceType": "com.kancy.delay.message.data.mongo.config.MongoDbProperties"
+      "sourceType": "com.github.kancyframework.delay.message.data.mongo.config.MongoDbProperties"
     }
   ],
   "hints": []

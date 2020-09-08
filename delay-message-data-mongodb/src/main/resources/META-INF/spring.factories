@@ -1,2 +1,2 @@
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-  com.kancy.delay.message.data.mongo.config.MongoDelayMessageAutoConfiguration
+  com.github.kancyframework.delay.message.data.mongo.config.MongoDelayMessageAutoConfiguration

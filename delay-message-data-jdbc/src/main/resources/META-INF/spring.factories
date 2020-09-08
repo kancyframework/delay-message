@@ -1,2 +1,2 @@
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-  com.kancy.delay.message.data.jdbc.config.JdbcDelayMessageAutoConfiguration,com.kancy.delay.message.data.jdbc.config.DataSourceConfig
+  com.github.kancyframework.delay.message.data.jdbc.config.JdbcDelayMessageAutoConfiguration,com.github.kancyframework.delay.message.data.jdbc.config.DataSourceConfig

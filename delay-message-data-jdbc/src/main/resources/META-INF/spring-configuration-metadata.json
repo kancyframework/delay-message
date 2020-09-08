@@ -2,19 +2,19 @@
   "groups": [
     {
       "name": "delay.message.datasource",
-      "type": "com.kancy.delay.message.data.jdbc.config.DataSourceProperties",
-      "sourceType": "com.kancy.delay.message.data.jdbc.config.DataSourceProperties"
+      "type": "com.github.kancyframework.delay.message.data.jdbc.config.DataSourceProperties",
+      "sourceType": "com.github.kancyframework.delay.message.data.jdbc.config.DataSourceProperties"
     },
     {
       "name": "delay.message.datasource.master",
-      "type": "com.kancy.delay.message.data.jdbc.config.DataSourceProperties$DataSourceConfig",
-      "sourceType": "com.kancy.delay.message.data.jdbc.config.DataSourceProperties",
+      "type": "com.github.kancyframework.delay.message.data.jdbc.config.DataSourceProperties$DataSourceConfig",
+      "sourceType": "com.github.kancyframework.delay.message.data.jdbc.config.DataSourceProperties",
       "sourceMethod": "getMaster()"
     },
     {
       "name": "delay.message.datasource.slave",
-      "type": "com.kancy.delay.message.data.jdbc.config.DataSourceProperties$DataSourceConfig",
-      "sourceType": "com.kancy.delay.message.data.jdbc.config.DataSourceProperties",
+      "type": "com.github.kancyframework.delay.message.data.jdbc.config.DataSourceProperties$DataSourceConfig",
+      "sourceType": "com.github.kancyframework.delay.message.data.jdbc.config.DataSourceProperties",
       "sourceMethod": "getSlave()"
     }
   ],
@@ -23,217 +23,217 @@
       "name": "delay.message.datasource.master.druid.connect-properties",
       "type": "java.util.Properties",
       "description": "连接属性",
-      "sourceType": "com.kancy.delay.message.data.jdbc.config.DruidProperties"
+      "sourceType": "com.github.kancyframework.delay.message.data.jdbc.config.DruidProperties"
     },
     {
       "name": "delay.message.datasource.master.druid.filters",
       "type": "java.lang.String",
       "description": "过滤",
-      "sourceType": "com.kancy.delay.message.data.jdbc.config.DruidProperties",
+      "sourceType": "com.github.kancyframework.delay.message.data.jdbc.config.DruidProperties",
       "defaultValue": "stat,wall"
     },
     {
       "name": "delay.message.datasource.master.druid.initial-size",
       "type": "java.lang.Integer",
       "description": "初始化连接数",
-      "sourceType": "com.kancy.delay.message.data.jdbc.config.DruidProperties",
+      "sourceType": "com.github.kancyframework.delay.message.data.jdbc.config.DruidProperties",
       "defaultValue": 0
     },
     {
       "name": "delay.message.datasource.master.druid.max-active",
       "type": "java.lang.Integer",
       "description": "最大连接数",
-      "sourceType": "com.kancy.delay.message.data.jdbc.config.DruidProperties",
+      "sourceType": "com.github.kancyframework.delay.message.data.jdbc.config.DruidProperties",
       "defaultValue": 8
     },
     {
       "name": "delay.message.datasource.master.druid.max-wait",
       "type": "java.lang.Long",
       "description": "最大等待时间",
-      "sourceType": "com.kancy.delay.message.data.jdbc.config.DruidProperties",
+      "sourceType": "com.github.kancyframework.delay.message.data.jdbc.config.DruidProperties",
       "defaultValue": 60000
     },
     {
       "name": "delay.message.datasource.master.druid.merge-sql",
       "type": "java.lang.Boolean",
       "description": "druid.stat.mergeSql",
-      "sourceType": "com.kancy.delay.message.data.jdbc.config.DruidProperties",
+      "sourceType": "com.github.kancyframework.delay.message.data.jdbc.config.DruidProperties",
       "defaultValue": true
     },
     {
       "name": "delay.message.datasource.master.druid.min-idle",
       "type": "java.lang.Integer",
       "description": "最小闲置连接",
-      "sourceType": "com.kancy.delay.message.data.jdbc.config.DruidProperties",
+      "sourceType": "com.github.kancyframework.delay.message.data.jdbc.config.DruidProperties",
       "defaultValue": 0
     },
     {
       "name": "delay.message.datasource.master.druid.name",
       "type": "java.lang.String",
       "description": "名称",
-      "sourceType": "com.kancy.delay.message.data.jdbc.config.DruidProperties"
+      "sourceType": "com.github.kancyframework.delay.message.data.jdbc.config.DruidProperties"
     },
     {
       "name": "delay.message.datasource.master.druid.slow-sql-millis",
       "type": "java.lang.Long",
       "description": "druid.stat.slowSqlMillis",
-      "sourceType": "com.kancy.delay.message.data.jdbc.config.DruidProperties",
+      "sourceType": "com.github.kancyframework.delay.message.data.jdbc.config.DruidProperties",
       "defaultValue": 5000
     },
     {
       "name": "delay.message.datasource.master.hikari.connection-test-query",
       "type": "java.lang.String",
       "description": "连接测试查询语句",
-      "sourceType": "com.kancy.delay.message.data.jdbc.config.HikariProperties"
+      "sourceType": "com.github.kancyframework.delay.message.data.jdbc.config.HikariProperties"
     },
     {
       "name": "delay.message.datasource.master.hikari.connection-timeout",
       "type": "java.lang.Long",
       "description": "连接超时时间",
-      "sourceType": "com.kancy.delay.message.data.jdbc.config.HikariProperties",
+      "sourceType": "com.github.kancyframework.delay.message.data.jdbc.config.HikariProperties",
       "defaultValue": 30000
     },
     {
       "name": "delay.message.datasource.master.hikari.idle-timeout",
       "type": "java.lang.Long",
       "description": "空闲连接存活时间",
-      "sourceType": "com.kancy.delay.message.data.jdbc.config.HikariProperties",
+      "sourceType": "com.github.kancyframework.delay.message.data.jdbc.config.HikariProperties",
       "defaultValue": 600000
     },
     {
       "name": "delay.message.datasource.master.hikari.max-lifetime",
       "type": "java.lang.Long",
       "description": "最大存活时间",
-      "sourceType": "com.kancy.delay.message.data.jdbc.config.HikariProperties",
+      "sourceType": "com.github.kancyframework.delay.message.data.jdbc.config.HikariProperties",
       "defaultValue": 1800000
     },
     {
       "name": "delay.message.datasource.master.hikari.max-pool-size",
       "type": "java.lang.Integer",
       "description": "连接池大小",
-      "sourceType": "com.kancy.delay.message.data.jdbc.config.HikariProperties",
+      "sourceType": "com.github.kancyframework.delay.message.data.jdbc.config.HikariProperties",
       "defaultValue": 10
     },
     {
       "name": "delay.message.datasource.master.hikari.min-idle",
       "type": "java.lang.Integer",
       "description": "空闲连接数",
-      "sourceType": "com.kancy.delay.message.data.jdbc.config.HikariProperties",
+      "sourceType": "com.github.kancyframework.delay.message.data.jdbc.config.HikariProperties",
       "defaultValue": 1
     },
     {
       "name": "delay.message.datasource.master.hikari.pool-name",
       "type": "java.lang.String",
       "description": "连接池名称",
-      "sourceType": "com.kancy.delay.message.data.jdbc.config.HikariProperties"
+      "sourceType": "com.github.kancyframework.delay.message.data.jdbc.config.HikariProperties"
     },
     {
       "name": "delay.message.datasource.slave.druid.connect-properties",
       "type": "java.util.Properties",
       "description": "连接属性",
-      "sourceType": "com.kancy.delay.message.data.jdbc.config.DruidProperties"
+      "sourceType": "com.github.kancyframework.delay.message.data.jdbc.config.DruidProperties"
     },
     {
       "name": "delay.message.datasource.slave.druid.filters",
       "type": "java.lang.String",
       "description": "过滤",
-      "sourceType": "com.kancy.delay.message.data.jdbc.config.DruidProperties",
+      "sourceType": "com.github.kancyframework.delay.message.data.jdbc.config.DruidProperties",
       "defaultValue": "stat,wall"
     },
     {
       "name": "delay.message.datasource.slave.druid.initial-size",
       "type": "java.lang.Integer",
       "description": "初始化连接数",
-      "sourceType": "com.kancy.delay.message.data.jdbc.config.DruidProperties",
+      "sourceType": "com.github.kancyframework.delay.message.data.jdbc.config.DruidProperties",
       "defaultValue": 0
     },
     {
       "name": "delay.message.datasource.slave.druid.max-active",
       "type": "java.lang.Integer",
       "description": "最大连接数",
-      "sourceType": "com.kancy.delay.message.data.jdbc.config.DruidProperties",
+      "sourceType": "com.github.kancyframework.delay.message.data.jdbc.config.DruidProperties",
       "defaultValue": 8
     },
     {
       "name": "delay.message.datasource.slave.druid.max-wait",
       "type": "java.lang.Long",
       "description": "最大等待时间",
-      "sourceType": "com.kancy.delay.message.data.jdbc.config.DruidProperties",
+      "sourceType": "com.github.kancyframework.delay.message.data.jdbc.config.DruidProperties",
       "defaultValue": 60000
     },
     {
       "name": "delay.message.datasource.slave.druid.merge-sql",
       "type": "java.lang.Boolean",
       "description": "druid.stat.mergeSql",
-      "sourceType": "com.kancy.delay.message.data.jdbc.config.DruidProperties",
+      "sourceType": "com.github.kancyframework.delay.message.data.jdbc.config.DruidProperties",
       "defaultValue": true
     },
     {
       "name": "delay.message.datasource.slave.druid.min-idle",
       "type": "java.lang.Integer",
       "description": "最小闲置连接",
-      "sourceType": "com.kancy.delay.message.data.jdbc.config.DruidProperties",
+      "sourceType": "com.github.kancyframework.delay.message.data.jdbc.config.DruidProperties",
       "defaultValue": 0
     },
     {
       "name": "delay.message.datasource.slave.druid.name",
       "type": "java.lang.String",
       "description": "名称",
-      "sourceType": "com.kancy.delay.message.data.jdbc.config.DruidProperties"
+      "sourceType": "com.github.kancyframework.delay.message.data.jdbc.config.DruidProperties"
     },
     {
       "name": "delay.message.datasource.slave.druid.slow-sql-millis",
       "type": "java.lang.Long",
       "description": "druid.stat.slowSqlMillis",
-      "sourceType": "com.kancy.delay.message.data.jdbc.config.DruidProperties",
+      "sourceType": "com.github.kancyframework.delay.message.data.jdbc.config.DruidProperties",
       "defaultValue": 5000
     },
     {
       "name": "delay.message.datasource.slave.hikari.connection-test-query",
       "type": "java.lang.String",
       "description": "连接测试查询语句",
-      "sourceType": "com.kancy.delay.message.data.jdbc.config.HikariProperties"
+      "sourceType": "com.github.kancyframework.delay.message.data.jdbc.config.HikariProperties"
     },
     {
       "name": "delay.message.datasource.slave.hikari.connection-timeout",
       "type": "java.lang.Long",
       "description": "连接超时时间",
-      "sourceType": "com.kancy.delay.message.data.jdbc.config.HikariProperties",
+      "sourceType": "com.github.kancyframework.delay.message.data.jdbc.config.HikariProperties",
       "defaultValue": 30000
     },
     {
       "name": "delay.message.datasource.slave.hikari.idle-timeout",
       "type": "java.lang.Long",
       "description": "空闲连接存活时间",
-      "sourceType": "com.kancy.delay.message.data.jdbc.config.HikariProperties",
+      "sourceType": "com.github.kancyframework.delay.message.data.jdbc.config.HikariProperties",
       "defaultValue": 600000
     },
     {
       "name": "delay.message.datasource.slave.hikari.max-lifetime",
       "type": "java.lang.Long",
       "description": "最大存活时间",
-      "sourceType": "com.kancy.delay.message.data.jdbc.config.HikariProperties",
+      "sourceType": "com.github.kancyframework.delay.message.data.jdbc.config.HikariProperties",
       "defaultValue": 1800000
     },
     {
       "name": "delay.message.datasource.slave.hikari.max-pool-size",
       "type": "java.lang.Integer",
       "description": "连接池大小",
-      "sourceType": "com.kancy.delay.message.data.jdbc.config.HikariProperties",
+      "sourceType": "com.github.kancyframework.delay.message.data.jdbc.config.HikariProperties",
       "defaultValue": 10
     },
     {
       "name": "delay.message.datasource.slave.hikari.min-idle",
       "type": "java.lang.Integer",
       "description": "空闲连接数",
-      "sourceType": "com.kancy.delay.message.data.jdbc.config.HikariProperties",
+      "sourceType": "com.github.kancyframework.delay.message.data.jdbc.config.HikariProperties",
       "defaultValue": 1
     },
     {
       "name": "delay.message.datasource.slave.hikari.pool-name",
       "type": "java.lang.String",
       "description": "连接池名称",
-      "sourceType": "com.kancy.delay.message.data.jdbc.config.HikariProperties"
+      "sourceType": "com.github.kancyframework.delay.message.data.jdbc.config.HikariProperties"
     }
   ],
   "hints": []

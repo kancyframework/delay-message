@@ -1,3 +1,3 @@
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-  com.kancy.delay.message.db.client.config.DelayMessageClientAutoConfiguration,\
-  com.kancy.delay.message.db.config.DelayMessageCoreAutoConfiguration
+  com.github.kancyframework.delay.message.client.config.DelayMessageClientAutoConfiguration,\
+  com.github.kancyframework.delay.message.config.DelayMessageCoreAutoConfiguration
